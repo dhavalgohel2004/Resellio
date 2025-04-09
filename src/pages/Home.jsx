@@ -224,7 +224,7 @@ useEffect(() => {
                 </div>
               </section>
               <section className="why-choose-us-section">
-                <div className="custom-container px-4 h-full w-full flex justify-center items-center flex-col">
+                <div className="custom-container pt-12 px-4 h-full w-full flex justify-center items-center flex-col">
                   <h2 className="text-3xl md:text-4xl font-baskerville text-center mb-6 font-bold text-gray-100">Why Choose Us</h2>
                   <p className="text-center text-gray-300 font-outfit max-w-xl mx-auto mb-12">
                     We’re not just another service provider. We’re a team driven by results, reliability, and real relationships.

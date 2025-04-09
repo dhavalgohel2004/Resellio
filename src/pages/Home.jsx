@@ -29,7 +29,7 @@ function Home() {
 
     const preloadImages = () => {
       for (let i = 1; i <= frames.current.maxIndex; i++) {
-        const imageUrl = `/second_video_frame/frame_${i.toString().padStart(4, "0")}.jpeg`;
+        const imageUrl = `/second_video_frame/frame_${i.toString().padStart(4, "0")}.jpg`;
         const img = new Image();
         img.src = imageUrl;
 

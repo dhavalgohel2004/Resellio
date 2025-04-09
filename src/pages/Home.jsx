@@ -223,7 +223,7 @@ useEffect(() => {
                   </div>
                 </div>
               </section>
-              
+              new 
               <section className="why-choose-us-section">
                 <div className="custom-container px-4 h-full w-full flex justify-center items-center flex-col">
                   <h2 className="text-3xl md:text-4xl font-baskerville text-center mb-6 font-bold text-gray-100">Why Choose Us</h2>

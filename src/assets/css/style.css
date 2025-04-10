@@ -255,9 +255,6 @@ body {
     overflow: hidden;
   }
 
-  .login-page{
-    background-color: #5454C5;
-  }
   .form-wrapper {
     background: rgba(0, 0, 0, 0.2); 
     backdrop-filter: blur(10px);         

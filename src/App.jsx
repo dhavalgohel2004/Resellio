@@ -7,6 +7,10 @@ import ContactUs from "./pages/ContactUs";
 import Products from "./pages/Products";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
+import SignUp from "./pages/Sgnup";
+import ForgetPassword from "./pages/ForgetPassword";
+import TermsCondition from "./pages/TermsCondition";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -20,7 +24,11 @@ function App() {
               <Route path="/contact" element={<ContactUs />} />
               <Route path="/products" element={<Products />} />
               <Route path="/login" element={<Login />} />
-              <Route path="*" element={<NotFound />} /> {/* Catch-all for 404 */}
+              <Route path="/signup" element={<SignUp />} />
+              <Route path="/forgetpassword" element={<ForgetPassword />} />
+              <Route path="/terms-condition" element={<TermsCondition />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           {/* </main> */}
         <Footer />
